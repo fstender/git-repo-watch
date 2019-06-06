@@ -8,9 +8,15 @@ You need a working installation of [nodejs](https://nodejs.org)
 
 ## Getting Started
 
-1. npm init
-2. Copy the included config.json.sample to config.json and enter the git repositories you want to monitor
-3. npm start
+You can use this handy Windows script to get your own working installation:
+
+```bash
+git clone https://github.com/fstender/git-repo-watch.git
+cd git-repo-watch
+call npm install
+copy config.json.sample config.json
+echo Edit config.json and add the paths to your repositories
+```
 
 ## Authors
 
