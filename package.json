@@ -1,0 +1,24 @@
+{
+  "name": "git-repo-watch",
+  "version": "1.0.0",
+  "description": "Simple script to monitor a set of git repositories for their current state",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [ "git", "repository", "watch" ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fstender/git-repo-watch.git"
+  },
+  "author": {
+    "name": "Frank Stender",
+    "email": "me@fstender.de"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "git-repo-info": "^2.1.0"
+  }
+}

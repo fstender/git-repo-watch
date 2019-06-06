@@ -1,0 +1,18 @@
+{
+  "repositories": [
+    {
+      "name": "repo1",
+      "path": "c:/path/to/repo1"
+    },
+    {
+      "name": "repo2",
+      "path": "c:/path/to/repo2"
+    },
+    {
+      "name": "repo3",
+      "path": "c:/path/to/repo3"
+    },
+  ],
+  "refresh": 15000,
+  "maxLength": 80
+}
